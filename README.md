@@ -34,3 +34,39 @@ O objetivo é criar um sistema simples de hospedagem em um hotel, utilizando **P
 
 ## 🧩 Estrutura do Projeto
 
+
+---
+
+## 🧠 Funcionamento das Classes
+
+### 🧑‍🤝‍🧑 Pessoa
+Representa um hóspede, contendo:
+- Nome
+- Sobrenome
+- NomeCompleto
+
+### 🛏️ Suite
+Representa um quarto:
+- Tipo da suíte
+- Capacidade
+- Valor da diária
+
+### 📅 Reserva
+Gerencia:
+- Lista de hóspedes
+- Suíte selecionada
+- Dias reservados  
+- Cálculo de valor total com regra de desconto
+
+---
+
+## ▶️ Como Executar o Projeto
+
+Certifique-se de ter o **.NET 7 ou superior** instalado.
+
+### 1. Clone o repositório  
+```sh
+git clone git@github.com:carioca1965/hotel-dio.git
+cd hotel-dio
+
+
